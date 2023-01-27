@@ -1,8 +1,8 @@
 var a = 10, b = 50
     resto = a % b
-    while( r != 0) {
+    while( resto != 0) {
         a = b;
-        b = r;
+        b = resto;
         resto = a % b;
         
     }
